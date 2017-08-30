@@ -1,0 +1,99 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+ A data structure is a specialized format for organizing and storing data. Any data structure is designed to organize data to suit a specific
+ purpose so that it can be accessed and worked with in appropriate ways.
+
+What are the various operations that can be performed on different Data Structures?
+ Traversing, Searching, Inserting, Deleting, Sorting, Merging.
+
+List out the areas in which data structures are applied extensively?
+ Compiler Design, Operating System, Database Management System, Statistical analysis package, Numerical Analysis, Graphics, Artificial Intelligence,
+ Simulation.
+
+what is an Array?
+ An array is a group of related data values (called elements) that are grouped together. All of the array elements must be the same data type.
+
+what is the difference between the Array and ArrayList?
+ The array does not grow dynamically but the arrayList does.
+
+what is LinkedList?
+ A linked list is a linear data structure where each element is a separate object. Each element (we will call it a node) of a list is comprising
+ of two items - the data and a reference to the next node. The last node has a reference to null. The entry point into a linked list is called the
+ head of the list.
+
+How is an Array different from Linked List?
+ Adding or removing data from the linkedList is easier than the array.
+
+what is queue?
+ The queue is an interface. It represents an ordered list of objects just like a List , but its intended use is slightly different. A queue is designed to
+ have elements inserted at the end of the queue, and elements removed from the beginning of the queue.
+
+what is stack?
+ It is a collection that is based on the last in first out (LIFO) principle.
+
+what is FIFO and LIFO?
+ - FIFO: First In First Out
+ - LIFO: Last In First Out
+
+what is the order of complexity?
+
+what is the best case to search an element from an array?
+ O(n).
+
+what is tree in data structure?
+ A tree is a widely used abstract data type (ADT)—or data structure implementing this ADT—that simulates a hierarchical tree structure, with a root value
+ and subtrees of children with a parent node, represented as a set of linked nodes.
+
+what is graph in data structure?
+ A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by
+ points termed as vertices, and the links that connect the vertices are called edges.
+
+what is the difference between the HashTable and HashMap?
+ - Hashtable is synchronized and does not allow null keys or values.
+ - HashMap is not synchronized and it allows null key value.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+ - RDBMS: Array
+ - Network data model: Graph
+ - Hierarchical data model: Trees
+
+How HashMap works in java?
+ HashMap in Java stores both key and value object, in bucket, as an object of Entry class which implements this nested interface Map.Entry. hashCode() -HashMap
+ provides put(key, value) for storing and get(key) method for retrieving Values from HashMap.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+It is an exception that occurs when the number of the elements declared in the array in greater than the declared length of the array.
+
+What are the different ways of copying an array into another array?
+ a[i] = b[i]
+
+What is difference between an array and a linked list?
+ In array, each element is independent, no connection with previous element or with its location. In Linked list, location or address of elements is stored in
+ the link part of previous element/node.
+
+What is DFS and BFS?
+ The breadth first search (BFS) and the depth first search (DFS) are the two algorithms used for traversing and searching a node in a graph. They can also be
+ used to find out whether a node is reachable from a given node or not.
+
+What is Recursion?
+ Recursion is a programming technique in which a method calls itself to solve some problem.
+
+What are linear and non linear data Structures?
+ - Linear data structures are array, stacks, queue, and linked list.
+ - Non linear data structures are trees and graphs.
+
+What is Big-(O)-notation?
+ Big O notation is used in Computer Science to describe the performance or complexity of an algorithm.
+
+Outlined different kind of sorting algorithm with time complexity?
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+ - Accessing element: arrays, stack, queue, linkedlist, hashtable, tree.
+ - Searching element: hashtable, stack, queue, linkedlist, arrays, tree.
+ - Inserting element: stack, queue, linkedlist,hashtable, arrays.
+ - Removing element: stack, queue, linkedlist,hashtable, arrays.

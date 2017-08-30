@@ -1,0 +1,168 @@
+Please answer the below core-java Questions:
+
+
+What jdk contains or composed of and define each components?
+The components of Java Development Kit are:
+- Java Compiler: it is used to compile java files. It is accessed using "javac" command.
+- Java Interpreter: it is used to inteprete the java files that are compiled by Java Compiler. It is accessed using "java" command.
+- Java Disassembler: It is used to disassemble Java class file. It is accessed using "javap" command.
+- Java Header File Generator: It is used to generate C language header files and source files to implement the native methods.
+   It is accessed using "javah" command.
+- Java Documentation: it is required for easy maintenance of code. It is accessed using "javadoc" command.
+- Java Debugger: it is used to debug the java files. It is accessed using "jdb" command.
+- Java Applet Viewer: It is used to view the Java Applets. It is accessed using "appletviewer" command.
+
+What is IDE?
+IDE is Integrated Development Environment. It is a software application that provides comprehensive facilities to computer programmers for
+software development. An IDE normally consists of a source code editor, build automation tools and a debugger.
+
+What are the IDEs available in the market to support java?
+Eclipse, IntelliJ, Android Studio, Enid Studio, BlueJ, jEdit, jGRASP, JSource, JDeveloper, DrJava.
+
+Explain the entire java life cycle.
+when you write a program using java language in an editor such as eclipse it becomes a source code and it is a high level language understood
+by people but not by the machine.
+The machine understands binary code, so the java compiler is going to convert this high level language into bitecode which appears as a class.
+Then, using the java loader, the class file is loaded into Java Virtul Machine (JVM) which sends the information to the operating system in order
+to present the output.
+
+what is class?
+A class is a blueprint for an object.
+
+What is object?
+Object is an instance of a class.
+
+What is the entry point of an application?
+I t the main method.
+
+Why main is static?
+Because it is called by JVM before any objects are created.
+
+What is the difference between an Interface and Abstract class?
+- An Interface can contain only abstract methods. The concrete class uses the keyword "implements" to inherit the properties of the interface.
+  The concrete class can implement multiple interfaces at a time.
+- The abstract class can contain abstract and non-abstract methods. The concrete class uses the keyword "extends" to inherit the properties
+  of the abstract class.The concrete class can extend only one abstract class at a time.
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+We can not create an object of an Interface and Abstract class. To use them we create an object of the concrete class that inherited their
+properties.
+
+what is Access Specifier?
+The Access Specifier is used to control what information or data can be accessible by other classes.
+
+What is OOP ? Define each feature of java OOP.
+Object Oriented Programing.
+- Inheritance: it is process to acquire properties from a super class to a subclass.
+- Polymorphism: The ability of an object to take many forms.
+- Abstraction: implementation hiding.
+- Encapsulation: data hiding.
+
+What is API? Name list of API that you have used so far.
+API (Application Program Interface) is a set of routines, protocols, and tools for building software applications.
+We used Java API
+
+Does java support multiple inheritance?
+No
+
+What is method overloading and when it happens?
+In the same class many methods that have the same name but different parameters. It happens in compile time.
+
+Explain exceptions in java and how to handle it.
+Exception is a problem that arises during the execution of a program. When an Exception occurs the normal flow of the program is disrupted.
+To handle exceptions we can use Try Catch block.
+
+What is static keyword in java? How it has been used in variables and methods ?
+- The static keyword in Java means that the variable or function is shared between all instances of that class as it belongs to the type, not
+  the actual objects themselves.
+- Static in terms of methods: when a method is static we do not need to create an object to call that method, we just use className.methodName.
+  It can be used for memory efficiency since we dot not create objects that take space in the heap.
+- Static in terms of variable: when a variable is static it does not belong to the object but it belongs to the class. So if one object make a
+  change on that variable it will affect the other objects.
+
+What is final and how it has been used variables and methods?
+- Final means that no modification can be made.
+- In terms of variable: the final variable can be initialized only one and it can not be modified.
+- In terms of method: we can not override a final method.
+
+What is final, finally and finalize?
+- Final means that no modification can be made.
+- Finally: finally block is implemented after try catch block to clean up the process. Finally block is executed regardless of whether or not
+  the exception occurs.
+- Finalize: it is used to destroy an object.
+
+What is a constructor ?
+A constructor in Java is a block of code similar to a method that's called when an instance of an object is created. The differences between a
+constructor and a method: A constructor doesn't have a return type. The name of the constructor must be the same as the name of the class.
+
+What is "this" keyword in java ?
+It refers to the class itself.
+
+What is "super" keyword in java?
+"super" is used in a subclass to invoke a super class properties.
+
+What is JVM stand for ?
+Java Virtual Machine.
+
+What version of java are you using?
+"1.8.0_121"
+
+What is JAR stand for ?
+Java ARchive.
+
+What is compile time and run time?
+- Compile time: When the source code is compiled into machine code in order to become and executable program. This compilation process is referred to as
+  compile time
+- Run time: When an application is running, it is called runtime.
+
+What is heap?
+The heap is the runtime data area from which memory for all class instances and arrays is allocated.
+
+How java manage it's memory?
+By using the java garbage collector.
+
+What is the difference between String, StringBuffer and StringBuilder?
+- String class is used to manipulate character strings that cannot be changed
+- The StringBuffer class is used to represent characters that can be modified.
+- StringBuilder objects are like String objects, except that they can be modified.
+
+What is Singleton class?
+Singleton pattern helps us to keep only one instance of a class at any time. The purpose of singleton is to control object creation by keeping
+private constructor.
+
+What is Serialization and Deserialization?
+Serialization is a process of converting an object into a sequence of bytes which can be persisted to a disk or database. The reverse process
+of creating object from sequence of bytes is called deserialization.
+
+Which one will take more memory, an int or Integer?
+Both take same amount of memory in heap.
+
+Why is String Immutable in Java?
+Because Mutable strings could cause security problem. If String was not immutable a connection or file would be changed and lead to serious
+security threat.
+
+What is constructor chaining in Java?
+It is Calling one constructor from other.
+
+The difference between Serial and Parallel Garbage Collector?
+- The Serial Collector: it’s mainly designed for single-threaded environments and for small heaps. This collector freezes all application
+threads whenever it’s working, which disqualifies it for all intents and purposes from being used in a server environment.
+- It uses multiple threads to scan through and compact the heap.
+
+What is JIT stands for?
+Just In Time.
+
+Explain Java Heap space and Garbage collection?
+Java objects reside in heap. The heap is created when the JVM starts up and may increase or decrease in size while the application runs.
+When the heap becomes full, garbage is collected. During the garbage collection objects that are no longer used are cleared, thus making
+space for new objects.
+
+Can you guarantee the garbage collection process?
+Yes.
+
+What is the difference between stack and heap in Java?
+The main difference between heap and stack is that stack memory is used to store local variables and function call while heap memory is used
+to store objects in Java.
+
+
+
